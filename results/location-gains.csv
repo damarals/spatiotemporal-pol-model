@@ -1,0 +1,365 @@
+"reference","component","change","model_with","model_without","pollutant","location_id","site_class","n_targets","gain"
+"full model without TROPOMI","Low-cost network","removed","full-no-tropomi","full-no-tropomi-without-low-cost","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.00263327734710511
+"full model without TROPOMI","Low-cost network","removed","full-no-tropomi","full-no-tropomi-without-low-cost","NO2","fortaleza-dhpp-fatima","avenue",2,0.0228778996982014
+"full model without TROPOMI","Low-cost network","removed","full-no-tropomi","full-no-tropomi-without-low-cost","NO2","fortaleza-sda-sao-gerardo","avenue",3,-0.0170284015380183
+"full model without TROPOMI","Low-cost network","removed","full-no-tropomi","full-no-tropomi-without-low-cost","NO2","fortaleza-terminal-messejana","bus_terminal",3,0.0746635021070207
+"full model without TROPOMI","Low-cost network","removed","full-no-tropomi","full-no-tropomi-without-low-cost","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.0140996717100819
+"full model without TROPOMI","Low-cost network","removed","full-no-tropomi","full-no-tropomi-without-low-cost","NO2","fortaleza-terminal-parangaba","bus_terminal",3,0.0266437802980686
+"full model without TROPOMI","Low-cost network","removed","full-no-tropomi","full-no-tropomi-without-low-cost","NO2","fortaleza-terminal-siqueira","bus_terminal",1,0.000521183941664116
+"full model without TROPOMI","Low-cost network","removed","full-no-tropomi","full-no-tropomi-without-low-cost","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.798277443633618
+"full model without TROPOMI","Low-cost network","removed","full-no-tropomi","full-no-tropomi-without-low-cost","PM25","fortaleza-dhpp-fatima","avenue",2,-0.0581595237697963
+"full model without TROPOMI","Low-cost network","removed","full-no-tropomi","full-no-tropomi-without-low-cost","PM25","fortaleza-sda-sao-gerardo","avenue",3,-0.291135133293087
+"full model without TROPOMI","Low-cost network","removed","full-no-tropomi","full-no-tropomi-without-low-cost","PM25","fortaleza-terminal-messejana","bus_terminal",3,-0.387511285081742
+"full model without TROPOMI","Low-cost network","removed","full-no-tropomi","full-no-tropomi-without-low-cost","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.0732667677907154
+"full model without TROPOMI","Low-cost network","removed","full-no-tropomi","full-no-tropomi-without-low-cost","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.0400435807658028
+"full model without TROPOMI","Low-cost network","removed","full-no-tropomi","full-no-tropomi-without-low-cost","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.121870609188623
+"full model without TROPOMI","PM2.5 deviation","removed","full-no-tropomi","full-no-tropomi-without-deviation","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.0083024664401527
+"full model without TROPOMI","PM2.5 deviation","removed","full-no-tropomi","full-no-tropomi-without-deviation","NO2","fortaleza-dhpp-fatima","avenue",2,0.0310607358085105
+"full model without TROPOMI","PM2.5 deviation","removed","full-no-tropomi","full-no-tropomi-without-deviation","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.0261061911732206
+"full model without TROPOMI","PM2.5 deviation","removed","full-no-tropomi","full-no-tropomi-without-deviation","NO2","fortaleza-terminal-messejana","bus_terminal",3,-0.00235652901778923
+"full model without TROPOMI","PM2.5 deviation","removed","full-no-tropomi","full-no-tropomi-without-deviation","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.00711115985526756
+"full model without TROPOMI","PM2.5 deviation","removed","full-no-tropomi","full-no-tropomi-without-deviation","NO2","fortaleza-terminal-parangaba","bus_terminal",3,-0.0434005784772656
+"full model without TROPOMI","PM2.5 deviation","removed","full-no-tropomi","full-no-tropomi-without-deviation","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.0784411527274651
+"full model without TROPOMI","PM2.5 deviation","removed","full-no-tropomi","full-no-tropomi-without-deviation","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.162229374963593
+"full model without TROPOMI","PM2.5 deviation","removed","full-no-tropomi","full-no-tropomi-without-deviation","PM25","fortaleza-dhpp-fatima","avenue",2,-0.0666659940361763
+"full model without TROPOMI","PM2.5 deviation","removed","full-no-tropomi","full-no-tropomi-without-deviation","PM25","fortaleza-sda-sao-gerardo","avenue",3,-0.233635284497613
+"full model without TROPOMI","PM2.5 deviation","removed","full-no-tropomi","full-no-tropomi-without-deviation","PM25","fortaleza-terminal-messejana","bus_terminal",3,-0.490289069876698
+"full model without TROPOMI","PM2.5 deviation","removed","full-no-tropomi","full-no-tropomi-without-deviation","PM25","fortaleza-terminal-papicu","bus_terminal",3,-0.0993172850391205
+"full model without TROPOMI","PM2.5 deviation","removed","full-no-tropomi","full-no-tropomi-without-deviation","PM25","fortaleza-terminal-parangaba","bus_terminal",3,-0.0175825561880724
+"full model without TROPOMI","PM2.5 deviation","removed","full-no-tropomi","full-no-tropomi-without-deviation","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.0147360651391362
+"full model without TROPOMI","PM2.5 spatial profile","removed","full-no-tropomi","full-no-tropomi-without-pm25-profile","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.00593605480623371
+"full model without TROPOMI","PM2.5 spatial profile","removed","full-no-tropomi","full-no-tropomi-without-pm25-profile","NO2","fortaleza-dhpp-fatima","avenue",2,0.0261766955114962
+"full model without TROPOMI","PM2.5 spatial profile","removed","full-no-tropomi","full-no-tropomi-without-pm25-profile","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.00240584126594656
+"full model without TROPOMI","PM2.5 spatial profile","removed","full-no-tropomi","full-no-tropomi-without-pm25-profile","NO2","fortaleza-terminal-messejana","bus_terminal",3,0.0676874763594957
+"full model without TROPOMI","PM2.5 spatial profile","removed","full-no-tropomi","full-no-tropomi-without-pm25-profile","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.0206839956393349
+"full model without TROPOMI","PM2.5 spatial profile","removed","full-no-tropomi","full-no-tropomi-without-pm25-profile","NO2","fortaleza-terminal-parangaba","bus_terminal",3,-0.00116668959038916
+"full model without TROPOMI","PM2.5 spatial profile","removed","full-no-tropomi","full-no-tropomi-without-pm25-profile","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.0311683143717549
+"full model without TROPOMI","PM2.5 spatial profile","removed","full-no-tropomi","full-no-tropomi-without-pm25-profile","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.177181750198983
+"full model without TROPOMI","PM2.5 spatial profile","removed","full-no-tropomi","full-no-tropomi-without-pm25-profile","PM25","fortaleza-dhpp-fatima","avenue",2,-0.0550891905260438
+"full model without TROPOMI","PM2.5 spatial profile","removed","full-no-tropomi","full-no-tropomi-without-pm25-profile","PM25","fortaleza-sda-sao-gerardo","avenue",3,-0.187373378851507
+"full model without TROPOMI","PM2.5 spatial profile","removed","full-no-tropomi","full-no-tropomi-without-pm25-profile","PM25","fortaleza-terminal-messejana","bus_terminal",3,-0.118887458972613
+"full model without TROPOMI","PM2.5 spatial profile","removed","full-no-tropomi","full-no-tropomi-without-pm25-profile","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.00587455367449134
+"full model without TROPOMI","PM2.5 spatial profile","removed","full-no-tropomi","full-no-tropomi-without-pm25-profile","PM25","fortaleza-terminal-parangaba","bus_terminal",3,-0.0245087302783488
+"full model without TROPOMI","PM2.5 spatial profile","removed","full-no-tropomi","full-no-tropomi-without-pm25-profile","PM25","fortaleza-terminal-siqueira","bus_terminal",3,0.0278750758240677
+"full model without TROPOMI","NO2 site covariate","removed","full-no-tropomi","full-no-tropomi-without-no2-cov","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,-0.00770294302242497
+"full model without TROPOMI","NO2 site covariate","removed","full-no-tropomi","full-no-tropomi-without-no2-cov","NO2","fortaleza-dhpp-fatima","avenue",2,0.00763509059981932
+"full model without TROPOMI","NO2 site covariate","removed","full-no-tropomi","full-no-tropomi-without-no2-cov","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.00159513048704159
+"full model without TROPOMI","NO2 site covariate","removed","full-no-tropomi","full-no-tropomi-without-no2-cov","NO2","fortaleza-terminal-messejana","bus_terminal",3,-1.73706576675263
+"full model without TROPOMI","NO2 site covariate","removed","full-no-tropomi","full-no-tropomi-without-no2-cov","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.455706008368086
+"full model without TROPOMI","NO2 site covariate","removed","full-no-tropomi","full-no-tropomi-without-no2-cov","NO2","fortaleza-terminal-parangaba","bus_terminal",3,0.515690731229083
+"full model without TROPOMI","NO2 site covariate","removed","full-no-tropomi","full-no-tropomi-without-no2-cov","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.373103414461329
+"full model without TROPOMI","NO2 site covariate","removed","full-no-tropomi","full-no-tropomi-without-no2-cov","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.0127755172877258
+"full model without TROPOMI","NO2 site covariate","removed","full-no-tropomi","full-no-tropomi-without-no2-cov","PM25","fortaleza-dhpp-fatima","avenue",2,-0.00753198839907326
+"full model without TROPOMI","NO2 site covariate","removed","full-no-tropomi","full-no-tropomi-without-no2-cov","PM25","fortaleza-sda-sao-gerardo","avenue",3,-0.00851914089884461
+"full model without TROPOMI","NO2 site covariate","removed","full-no-tropomi","full-no-tropomi-without-no2-cov","PM25","fortaleza-terminal-messejana","bus_terminal",3,0.0418008614934829
+"full model without TROPOMI","NO2 site covariate","removed","full-no-tropomi","full-no-tropomi-without-no2-cov","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.0105158713294768
+"full model without TROPOMI","NO2 site covariate","removed","full-no-tropomi","full-no-tropomi-without-no2-cov","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.00543784114951991
+"full model without TROPOMI","NO2 site covariate","removed","full-no-tropomi","full-no-tropomi-without-no2-cov","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.00266380374178439
+"full model without TROPOMI","NO2 profile","removed","full-no-tropomi","full-no-tropomi-without-no2-profile","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.0540269300658439
+"full model without TROPOMI","NO2 profile","removed","full-no-tropomi","full-no-tropomi-without-no2-profile","NO2","fortaleza-dhpp-fatima","avenue",2,-0.0915848640612081
+"full model without TROPOMI","NO2 profile","removed","full-no-tropomi","full-no-tropomi-without-no2-profile","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.00121189741170006
+"full model without TROPOMI","NO2 profile","removed","full-no-tropomi","full-no-tropomi-without-no2-profile","NO2","fortaleza-terminal-messejana","bus_terminal",3,-0.346154220656135
+"full model without TROPOMI","NO2 profile","removed","full-no-tropomi","full-no-tropomi-without-no2-profile","NO2","fortaleza-terminal-papicu","bus_terminal",3,-0.0904598504643298
+"full model without TROPOMI","NO2 profile","removed","full-no-tropomi","full-no-tropomi-without-no2-profile","NO2","fortaleza-terminal-parangaba","bus_terminal",3,0.307201133282514
+"full model without TROPOMI","NO2 profile","removed","full-no-tropomi","full-no-tropomi-without-no2-profile","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.20411491947623
+"full model without TROPOMI","NO2 profile","removed","full-no-tropomi","full-no-tropomi-without-no2-profile","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.0091881597813675
+"full model without TROPOMI","NO2 profile","removed","full-no-tropomi","full-no-tropomi-without-no2-profile","PM25","fortaleza-dhpp-fatima","avenue",2,-0.00847913561966429
+"full model without TROPOMI","NO2 profile","removed","full-no-tropomi","full-no-tropomi-without-no2-profile","PM25","fortaleza-sda-sao-gerardo","avenue",3,0.0197861288118913
+"full model without TROPOMI","NO2 profile","removed","full-no-tropomi","full-no-tropomi-without-no2-profile","PM25","fortaleza-terminal-messejana","bus_terminal",3,0.0149641048732086
+"full model without TROPOMI","NO2 profile","removed","full-no-tropomi","full-no-tropomi-without-no2-profile","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.00613292030231257
+"full model without TROPOMI","NO2 profile","removed","full-no-tropomi","full-no-tropomi-without-no2-profile","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.000546364395676013
+"full model without TROPOMI","NO2 profile","removed","full-no-tropomi","full-no-tropomi-without-no2-profile","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.00318834079596471
+"full model without TROPOMI","Amplitude kappa","removed","full-no-tropomi","full-no-tropomi-without-amplitude","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,-0.29455819597202
+"full model without TROPOMI","Amplitude kappa","removed","full-no-tropomi","full-no-tropomi-without-amplitude","NO2","fortaleza-dhpp-fatima","avenue",2,0.0588830761042174
+"full model without TROPOMI","Amplitude kappa","removed","full-no-tropomi","full-no-tropomi-without-amplitude","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.0614810479536083
+"full model without TROPOMI","Amplitude kappa","removed","full-no-tropomi","full-no-tropomi-without-amplitude","NO2","fortaleza-terminal-messejana","bus_terminal",3,0.148113380654278
+"full model without TROPOMI","Amplitude kappa","removed","full-no-tropomi","full-no-tropomi-without-amplitude","NO2","fortaleza-terminal-papicu","bus_terminal",3,-0.245911466520442
+"full model without TROPOMI","Amplitude kappa","removed","full-no-tropomi","full-no-tropomi-without-amplitude","NO2","fortaleza-terminal-parangaba","bus_terminal",3,-1.00243004301013
+"full model without TROPOMI","Amplitude kappa","removed","full-no-tropomi","full-no-tropomi-without-amplitude","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-1.27863791030622
+"full model without TROPOMI","Amplitude kappa","removed","full-no-tropomi","full-no-tropomi-without-amplitude","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.00812920149746915
+"full model without TROPOMI","Amplitude kappa","removed","full-no-tropomi","full-no-tropomi-without-amplitude","PM25","fortaleza-dhpp-fatima","avenue",2,-0.00725666384930429
+"full model without TROPOMI","Amplitude kappa","removed","full-no-tropomi","full-no-tropomi-without-amplitude","PM25","fortaleza-sda-sao-gerardo","avenue",3,-0.00720114350239121
+"full model without TROPOMI","Amplitude kappa","removed","full-no-tropomi","full-no-tropomi-without-amplitude","PM25","fortaleza-terminal-messejana","bus_terminal",3,0.00144098647376108
+"full model without TROPOMI","Amplitude kappa","removed","full-no-tropomi","full-no-tropomi-without-amplitude","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.00609727808667789
+"full model without TROPOMI","Amplitude kappa","removed","full-no-tropomi","full-no-tropomi-without-amplitude","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.00392248153329374
+"full model without TROPOMI","Amplitude kappa","removed","full-no-tropomi","full-no-tropomi-without-amplitude","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.0121387958303491
+"full model without TROPOMI","Two traffic classes","removed","full-no-tropomi","full-no-tropomi-one-class","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.902024825577367
+"full model without TROPOMI","Two traffic classes","removed","full-no-tropomi","full-no-tropomi-one-class","NO2","fortaleza-dhpp-fatima","avenue",2,0.170916468552843
+"full model without TROPOMI","Two traffic classes","removed","full-no-tropomi","full-no-tropomi-one-class","NO2","fortaleza-sda-sao-gerardo","avenue",3,-0.0645621609009619
+"full model without TROPOMI","Two traffic classes","removed","full-no-tropomi","full-no-tropomi-one-class","NO2","fortaleza-terminal-messejana","bus_terminal",3,-1.58832905026703
+"full model without TROPOMI","Two traffic classes","removed","full-no-tropomi","full-no-tropomi-one-class","NO2","fortaleza-terminal-papicu","bus_terminal",3,-0.0849015221756908
+"full model without TROPOMI","Two traffic classes","removed","full-no-tropomi","full-no-tropomi-one-class","NO2","fortaleza-terminal-parangaba","bus_terminal",3,0.960341821892344
+"full model without TROPOMI","Two traffic classes","removed","full-no-tropomi","full-no-tropomi-one-class","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-1.6880190928627
+"full model without TROPOMI","Two traffic classes","removed","full-no-tropomi","full-no-tropomi-one-class","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.0101645760515502
+"full model without TROPOMI","Two traffic classes","removed","full-no-tropomi","full-no-tropomi-one-class","PM25","fortaleza-dhpp-fatima","avenue",2,0.00212508283029378
+"full model without TROPOMI","Two traffic classes","removed","full-no-tropomi","full-no-tropomi-one-class","PM25","fortaleza-sda-sao-gerardo","avenue",3,-0.00398271725802768
+"full model without TROPOMI","Two traffic classes","removed","full-no-tropomi","full-no-tropomi-one-class","PM25","fortaleza-terminal-messejana","bus_terminal",3,0.0123686339523713
+"full model without TROPOMI","Two traffic classes","removed","full-no-tropomi","full-no-tropomi-one-class","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.0153436483377699
+"full model without TROPOMI","Two traffic classes","removed","full-no-tropomi","full-no-tropomi-one-class","PM25","fortaleza-terminal-parangaba","bus_terminal",3,-0.00583121785726134
+"full model without TROPOMI","Two traffic classes","removed","full-no-tropomi","full-no-tropomi-one-class","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.00187620017153519
+"full model without TROPOMI","Innovation correlation r","removed","full-no-tropomi","full-no-tropomi-without-r","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.0449113171881829
+"full model without TROPOMI","Innovation correlation r","removed","full-no-tropomi","full-no-tropomi-without-r","NO2","fortaleza-dhpp-fatima","avenue",2,-0.0244460468771812
+"full model without TROPOMI","Innovation correlation r","removed","full-no-tropomi","full-no-tropomi-without-r","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.0180291783437027
+"full model without TROPOMI","Innovation correlation r","removed","full-no-tropomi","full-no-tropomi-without-r","NO2","fortaleza-terminal-messejana","bus_terminal",3,-0.103228357489191
+"full model without TROPOMI","Innovation correlation r","removed","full-no-tropomi","full-no-tropomi-without-r","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.0501537006184372
+"full model without TROPOMI","Innovation correlation r","removed","full-no-tropomi","full-no-tropomi-without-r","NO2","fortaleza-terminal-parangaba","bus_terminal",3,-0.0952189044365398
+"full model without TROPOMI","Innovation correlation r","removed","full-no-tropomi","full-no-tropomi-without-r","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.119520445305577
+"full model without TROPOMI","Innovation correlation r","removed","full-no-tropomi","full-no-tropomi-without-r","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.0364525289297572
+"full model without TROPOMI","Innovation correlation r","removed","full-no-tropomi","full-no-tropomi-without-r","PM25","fortaleza-dhpp-fatima","avenue",2,-0.00509200130786358
+"full model without TROPOMI","Innovation correlation r","removed","full-no-tropomi","full-no-tropomi-without-r","PM25","fortaleza-sda-sao-gerardo","avenue",3,0.0230299213486994
+"full model without TROPOMI","Innovation correlation r","removed","full-no-tropomi","full-no-tropomi-without-r","PM25","fortaleza-terminal-messejana","bus_terminal",3,0.00914218168756031
+"full model without TROPOMI","Innovation correlation r","removed","full-no-tropomi","full-no-tropomi-without-r","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.0215470183939949
+"full model without TROPOMI","Innovation correlation r","removed","full-no-tropomi","full-no-tropomi-without-r","PM25","fortaleza-terminal-parangaba","bus_terminal",3,-0.0136668061953551
+"full model without TROPOMI","Innovation correlation r","removed","full-no-tropomi","full-no-tropomi-without-r","PM25","fortaleza-terminal-siqueira","bus_terminal",3,0.0261461294208663
+"full model without TROPOMI","ERA5 drivers","removed","full-no-tropomi","full-no-tropomi-without-era5","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.231794302711747
+"full model without TROPOMI","ERA5 drivers","removed","full-no-tropomi","full-no-tropomi-without-era5","NO2","fortaleza-dhpp-fatima","avenue",2,0.224528816648937
+"full model without TROPOMI","ERA5 drivers","removed","full-no-tropomi","full-no-tropomi-without-era5","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.0914133124119087
+"full model without TROPOMI","ERA5 drivers","removed","full-no-tropomi","full-no-tropomi-without-era5","NO2","fortaleza-terminal-messejana","bus_terminal",3,0.278192076242858
+"full model without TROPOMI","ERA5 drivers","removed","full-no-tropomi","full-no-tropomi-without-era5","NO2","fortaleza-terminal-papicu","bus_terminal",3,-0.106746234760041
+"full model without TROPOMI","ERA5 drivers","removed","full-no-tropomi","full-no-tropomi-without-era5","NO2","fortaleza-terminal-parangaba","bus_terminal",3,-0.258534353898556
+"full model without TROPOMI","ERA5 drivers","removed","full-no-tropomi","full-no-tropomi-without-era5","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.567932516208145
+"full model without TROPOMI","ERA5 drivers","removed","full-no-tropomi","full-no-tropomi-without-era5","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.0632041868549974
+"full model without TROPOMI","ERA5 drivers","removed","full-no-tropomi","full-no-tropomi-without-era5","PM25","fortaleza-dhpp-fatima","avenue",2,-0.306195317194391
+"full model without TROPOMI","ERA5 drivers","removed","full-no-tropomi","full-no-tropomi-without-era5","PM25","fortaleza-sda-sao-gerardo","avenue",3,-0.034065512470748
+"full model without TROPOMI","ERA5 drivers","removed","full-no-tropomi","full-no-tropomi-without-era5","PM25","fortaleza-terminal-messejana","bus_terminal",3,0.0176623111165199
+"full model without TROPOMI","ERA5 drivers","removed","full-no-tropomi","full-no-tropomi-without-era5","PM25","fortaleza-terminal-papicu","bus_terminal",3,-0.0673560085996149
+"full model without TROPOMI","ERA5 drivers","removed","full-no-tropomi","full-no-tropomi-without-era5","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.0197791487536027
+"full model without TROPOMI","ERA5 drivers","removed","full-no-tropomi","full-no-tropomi-without-era5","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.0628345571004995
+"full model without TROPOMI","PM2.5 site covariate","removed","full-no-tropomi","full-no-tropomi-without-pm25-cov","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.0306535572637178
+"full model without TROPOMI","PM2.5 site covariate","removed","full-no-tropomi","full-no-tropomi-without-pm25-cov","NO2","fortaleza-dhpp-fatima","avenue",2,0.0292086696950355
+"full model without TROPOMI","PM2.5 site covariate","removed","full-no-tropomi","full-no-tropomi-without-pm25-cov","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.00770128122673371
+"full model without TROPOMI","PM2.5 site covariate","removed","full-no-tropomi","full-no-tropomi-without-pm25-cov","NO2","fortaleza-terminal-messejana","bus_terminal",3,0.0103727300393729
+"full model without TROPOMI","PM2.5 site covariate","removed","full-no-tropomi","full-no-tropomi-without-pm25-cov","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.0109650739312178
+"full model without TROPOMI","PM2.5 site covariate","removed","full-no-tropomi","full-no-tropomi-without-pm25-cov","NO2","fortaleza-terminal-parangaba","bus_terminal",3,0.0375069865673566
+"full model without TROPOMI","PM2.5 site covariate","removed","full-no-tropomi","full-no-tropomi-without-pm25-cov","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.0699212140638856
+"full model without TROPOMI","PM2.5 site covariate","removed","full-no-tropomi","full-no-tropomi-without-pm25-cov","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,0.162935359338856
+"full model without TROPOMI","PM2.5 site covariate","removed","full-no-tropomi","full-no-tropomi-without-pm25-cov","PM25","fortaleza-dhpp-fatima","avenue",2,0.177553157869561
+"full model without TROPOMI","PM2.5 site covariate","removed","full-no-tropomi","full-no-tropomi-without-pm25-cov","PM25","fortaleza-sda-sao-gerardo","avenue",3,0.0525007229131439
+"full model without TROPOMI","PM2.5 site covariate","removed","full-no-tropomi","full-no-tropomi-without-pm25-cov","PM25","fortaleza-terminal-messejana","bus_terminal",3,0.113440391006839
+"full model without TROPOMI","PM2.5 site covariate","removed","full-no-tropomi","full-no-tropomi-without-pm25-cov","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.00980454372828495
+"full model without TROPOMI","PM2.5 site covariate","removed","full-no-tropomi","full-no-tropomi-without-pm25-cov","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.0642448330709925
+"full model without TROPOMI","PM2.5 site covariate","removed","full-no-tropomi","full-no-tropomi-without-pm25-cov","PM25","fortaleza-terminal-siqueira","bus_terminal",3,0.0100819053750782
+"full model without TROPOMI","SatPM2.5 gain fixed at one","switched","full-no-tropomi","full-no-tropomi-free-gain","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.0112414276499014
+"full model without TROPOMI","SatPM2.5 gain fixed at one","switched","full-no-tropomi","full-no-tropomi-free-gain","NO2","fortaleza-dhpp-fatima","avenue",2,0.0385263718972804
+"full model without TROPOMI","SatPM2.5 gain fixed at one","switched","full-no-tropomi","full-no-tropomi-free-gain","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.0102072680267522
+"full model without TROPOMI","SatPM2.5 gain fixed at one","switched","full-no-tropomi","full-no-tropomi-free-gain","NO2","fortaleza-terminal-messejana","bus_terminal",3,0.187402861791187
+"full model without TROPOMI","SatPM2.5 gain fixed at one","switched","full-no-tropomi","full-no-tropomi-free-gain","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.0284785774929
+"full model without TROPOMI","SatPM2.5 gain fixed at one","switched","full-no-tropomi","full-no-tropomi-free-gain","NO2","fortaleza-terminal-parangaba","bus_terminal",3,0.0346216892607494
+"full model without TROPOMI","SatPM2.5 gain fixed at one","switched","full-no-tropomi","full-no-tropomi-free-gain","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.0180840132836524
+"full model without TROPOMI","SatPM2.5 gain fixed at one","switched","full-no-tropomi","full-no-tropomi-free-gain","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.154302701841256
+"full model without TROPOMI","SatPM2.5 gain fixed at one","switched","full-no-tropomi","full-no-tropomi-free-gain","PM25","fortaleza-dhpp-fatima","avenue",2,-0.0820530505478169
+"full model without TROPOMI","SatPM2.5 gain fixed at one","switched","full-no-tropomi","full-no-tropomi-free-gain","PM25","fortaleza-sda-sao-gerardo","avenue",3,-0.0172795740105219
+"full model without TROPOMI","SatPM2.5 gain fixed at one","switched","full-no-tropomi","full-no-tropomi-free-gain","PM25","fortaleza-terminal-messejana","bus_terminal",3,-0.163847338216785
+"full model without TROPOMI","SatPM2.5 gain fixed at one","switched","full-no-tropomi","full-no-tropomi-free-gain","PM25","fortaleza-terminal-papicu","bus_terminal",3,-0.0816816230922544
+"full model without TROPOMI","SatPM2.5 gain fixed at one","switched","full-no-tropomi","full-no-tropomi-free-gain","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.0300074958551631
+"full model without TROPOMI","SatPM2.5 gain fixed at one","switched","full-no-tropomi","full-no-tropomi-free-gain","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.119440124776641
+"full model without TROPOMI","SatPM2.5 seasonal factor","removed","full-no-tropomi","full-no-tropomi-without-seasonal","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.00639336902540544
+"full model without TROPOMI","SatPM2.5 seasonal factor","removed","full-no-tropomi","full-no-tropomi-without-seasonal","NO2","fortaleza-dhpp-fatima","avenue",2,0.0487544507212762
+"full model without TROPOMI","SatPM2.5 seasonal factor","removed","full-no-tropomi","full-no-tropomi-without-seasonal","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.00767023472585526
+"full model without TROPOMI","SatPM2.5 seasonal factor","removed","full-no-tropomi","full-no-tropomi-without-seasonal","NO2","fortaleza-terminal-messejana","bus_terminal",3,0.124527439604293
+"full model without TROPOMI","SatPM2.5 seasonal factor","removed","full-no-tropomi","full-no-tropomi-without-seasonal","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.0260499627698506
+"full model without TROPOMI","SatPM2.5 seasonal factor","removed","full-no-tropomi","full-no-tropomi-without-seasonal","NO2","fortaleza-terminal-parangaba","bus_terminal",3,0.025615004865533
+"full model without TROPOMI","SatPM2.5 seasonal factor","removed","full-no-tropomi","full-no-tropomi-without-seasonal","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.0293993833346309
+"full model without TROPOMI","SatPM2.5 seasonal factor","removed","full-no-tropomi","full-no-tropomi-without-seasonal","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,0.726158732577781
+"full model without TROPOMI","SatPM2.5 seasonal factor","removed","full-no-tropomi","full-no-tropomi-without-seasonal","PM25","fortaleza-dhpp-fatima","avenue",2,-0.755608862334895
+"full model without TROPOMI","SatPM2.5 seasonal factor","removed","full-no-tropomi","full-no-tropomi-without-seasonal","PM25","fortaleza-sda-sao-gerardo","avenue",3,-0.371698622313029
+"full model without TROPOMI","SatPM2.5 seasonal factor","removed","full-no-tropomi","full-no-tropomi-without-seasonal","PM25","fortaleza-terminal-messejana","bus_terminal",3,-0.53505732616378
+"full model without TROPOMI","SatPM2.5 seasonal factor","removed","full-no-tropomi","full-no-tropomi-without-seasonal","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.029668182663527
+"full model without TROPOMI","SatPM2.5 seasonal factor","removed","full-no-tropomi","full-no-tropomi-without-seasonal","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.618157254905307
+"full model without TROPOMI","SatPM2.5 seasonal factor","removed","full-no-tropomi","full-no-tropomi-without-seasonal","PM25","fortaleza-terminal-siqueira","bus_terminal",3,0.0861778062203397
+"full model without TROPOMI","SatPM2.5","removed","full-no-tropomi","full-no-tropomi-without-satpm25","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.0290442142025352
+"full model without TROPOMI","SatPM2.5","removed","full-no-tropomi","full-no-tropomi-without-satpm25","NO2","fortaleza-dhpp-fatima","avenue",2,-0.00834362463925598
+"full model without TROPOMI","SatPM2.5","removed","full-no-tropomi","full-no-tropomi-without-satpm25","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.0196072961678314
+"full model without TROPOMI","SatPM2.5","removed","full-no-tropomi","full-no-tropomi-without-satpm25","NO2","fortaleza-terminal-messejana","bus_terminal",3,-0.075320361059059
+"full model without TROPOMI","SatPM2.5","removed","full-no-tropomi","full-no-tropomi-without-satpm25","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.0575275962735254
+"full model without TROPOMI","SatPM2.5","removed","full-no-tropomi","full-no-tropomi-without-satpm25","NO2","fortaleza-terminal-parangaba","bus_terminal",3,-0.090855198508929
+"full model without TROPOMI","SatPM2.5","removed","full-no-tropomi","full-no-tropomi-without-satpm25","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.105557650393829
+"full model without TROPOMI","SatPM2.5","removed","full-no-tropomi","full-no-tropomi-without-satpm25","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,0.149913692714777
+"full model without TROPOMI","SatPM2.5","removed","full-no-tropomi","full-no-tropomi-without-satpm25","PM25","fortaleza-dhpp-fatima","avenue",2,1.0929348807625
+"full model without TROPOMI","SatPM2.5","removed","full-no-tropomi","full-no-tropomi-without-satpm25","PM25","fortaleza-sda-sao-gerardo","avenue",3,-0.0512346663596914
+"full model without TROPOMI","SatPM2.5","removed","full-no-tropomi","full-no-tropomi-without-satpm25","PM25","fortaleza-terminal-messejana","bus_terminal",3,-0.272362286571792
+"full model without TROPOMI","SatPM2.5","removed","full-no-tropomi","full-no-tropomi-without-satpm25","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.122818321120921
+"full model without TROPOMI","SatPM2.5","removed","full-no-tropomi","full-no-tropomi-without-satpm25","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.0783800470776418
+"full model without TROPOMI","SatPM2.5","removed","full-no-tropomi","full-no-tropomi-without-satpm25","PM25","fortaleza-terminal-siqueira","bus_terminal",3,0.155719191987982
+"full model without TROPOMI","Profile correlation","removed","full-no-tropomi","full-no-tropomi-without-profile-cor","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,-0.00478838860710012
+"full model without TROPOMI","Profile correlation","removed","full-no-tropomi","full-no-tropomi-without-profile-cor","NO2","fortaleza-dhpp-fatima","avenue",2,0.0153776698011933
+"full model without TROPOMI","Profile correlation","removed","full-no-tropomi","full-no-tropomi-without-profile-cor","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.000240650300944889
+"full model without TROPOMI","Profile correlation","removed","full-no-tropomi","full-no-tropomi-without-profile-cor","NO2","fortaleza-terminal-messejana","bus_terminal",3,-0.016369494911312
+"full model without TROPOMI","Profile correlation","removed","full-no-tropomi","full-no-tropomi-without-profile-cor","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.0350630868247699
+"full model without TROPOMI","Profile correlation","removed","full-no-tropomi","full-no-tropomi-without-profile-cor","NO2","fortaleza-terminal-parangaba","bus_terminal",3,0.00093510312118239
+"full model without TROPOMI","Profile correlation","removed","full-no-tropomi","full-no-tropomi-without-profile-cor","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.0735861422107287
+"full model without TROPOMI","Profile correlation","removed","full-no-tropomi","full-no-tropomi-without-profile-cor","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.0149182104807162
+"full model without TROPOMI","Profile correlation","removed","full-no-tropomi","full-no-tropomi-without-profile-cor","PM25","fortaleza-dhpp-fatima","avenue",2,0.018499981219771
+"full model without TROPOMI","Profile correlation","removed","full-no-tropomi","full-no-tropomi-without-profile-cor","PM25","fortaleza-sda-sao-gerardo","avenue",3,-0.014331596585716
+"full model without TROPOMI","Profile correlation","removed","full-no-tropomi","full-no-tropomi-without-profile-cor","PM25","fortaleza-terminal-messejana","bus_terminal",3,0.0145618352767671
+"full model without TROPOMI","Profile correlation","removed","full-no-tropomi","full-no-tropomi-without-profile-cor","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.0110183490676999
+"full model without TROPOMI","Profile correlation","removed","full-no-tropomi","full-no-tropomi-without-profile-cor","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.00353146584765625
+"full model without TROPOMI","Profile correlation","removed","full-no-tropomi","full-no-tropomi-without-profile-cor","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.00592240192484261
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,-0.0894707292648109
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","NO2","fortaleza-dhpp-fatima","avenue",2,0.00823195918854808
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.226401494337349
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","NO2","fortaleza-terminal-messejana","bus_terminal",3,1.52154488002466
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.267835257318948
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","NO2","fortaleza-terminal-parangaba","bus_terminal",3,0.640766312976035
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.825170272926334
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.0636870742116487
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","PM25","fortaleza-dhpp-fatima","avenue",2,0.0077248210076703
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","PM25","fortaleza-sda-sao-gerardo","avenue",3,-0.0121762054776895
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","PM25","fortaleza-terminal-messejana","bus_terminal",3,-0.0313187296683416
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","PM25","fortaleza-terminal-papicu","bus_terminal",3,-0.0259273397604567
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","PM25","fortaleza-terminal-parangaba","bus_terminal",3,-0.0249962285303952
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","PM25","fortaleza-terminal-siqueira","bus_terminal",3,0.0165696349446038
+"reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.00556594181889558
+"reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","NO2","fortaleza-dhpp-fatima","avenue",2,0.0151134948010718
+"reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","NO2","fortaleza-sda-sao-gerardo","avenue",3,-0.0306085011587401
+"reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","NO2","fortaleza-terminal-messejana","bus_terminal",3,-0.0148048049995292
+"reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.0117664963829356
+"reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","NO2","fortaleza-terminal-parangaba","bus_terminal",3,-0.00444471208363565
+"reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","NO2","fortaleza-terminal-siqueira","bus_terminal",1,0.0127613085532305
+"reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.846131330618791
+"reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","PM25","fortaleza-dhpp-fatima","avenue",2,-0.0224491649879829
+"reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","PM25","fortaleza-sda-sao-gerardo","avenue",3,-0.308480480782402
+"reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","PM25","fortaleza-terminal-messejana","bus_terminal",3,-0.414141670168476
+"reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.0918281903983617
+"reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.0483285773400888
+"reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.13665460086031
+"reduced model","PM2.5 deviation","removed","reduced","reduced-without-deviation","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.0146844504330363
+"reduced model","PM2.5 deviation","removed","reduced","reduced-without-deviation","NO2","fortaleza-dhpp-fatima","avenue",2,0.0166743525794859
+"reduced model","PM2.5 deviation","removed","reduced","reduced-without-deviation","NO2","fortaleza-sda-sao-gerardo","avenue",3,-0.0151056329786804
+"reduced model","PM2.5 deviation","removed","reduced","reduced-without-deviation","NO2","fortaleza-terminal-messejana","bus_terminal",3,0.0380283855550689
+"reduced model","PM2.5 deviation","removed","reduced","reduced-without-deviation","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.00931987923826213
+"reduced model","PM2.5 deviation","removed","reduced","reduced-without-deviation","NO2","fortaleza-terminal-parangaba","bus_terminal",3,0.01198996701065
+"reduced model","PM2.5 deviation","removed","reduced","reduced-without-deviation","NO2","fortaleza-terminal-siqueira","bus_terminal",1,0.0171079346962821
+"reduced model","PM2.5 deviation","removed","reduced","reduced-without-deviation","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.189526279544951
+"reduced model","PM2.5 deviation","removed","reduced","reduced-without-deviation","PM25","fortaleza-dhpp-fatima","avenue",2,-0.0709675327336301
+"reduced model","PM2.5 deviation","removed","reduced","reduced-without-deviation","PM25","fortaleza-sda-sao-gerardo","avenue",3,-0.250956615327608
+"reduced model","PM2.5 deviation","removed","reduced","reduced-without-deviation","PM25","fortaleza-terminal-messejana","bus_terminal",3,-0.53814903709803
+"reduced model","PM2.5 deviation","removed","reduced","reduced-without-deviation","PM25","fortaleza-terminal-papicu","bus_terminal",3,-0.102201392362898
+"reduced model","PM2.5 deviation","removed","reduced","reduced-without-deviation","PM25","fortaleza-terminal-parangaba","bus_terminal",3,-0.0185952892033242
+"reduced model","PM2.5 deviation","removed","reduced","reduced-without-deviation","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.0124013615519094
+"reduced model","PM2.5 spatial profile","removed","reduced","reduced-without-pm25-profile","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.0237136821115632
+"reduced model","PM2.5 spatial profile","removed","reduced","reduced-without-pm25-profile","NO2","fortaleza-dhpp-fatima","avenue",2,-0.00600157713061794
+"reduced model","PM2.5 spatial profile","removed","reduced","reduced-without-pm25-profile","NO2","fortaleza-sda-sao-gerardo","avenue",3,-0.00116622773422626
+"reduced model","PM2.5 spatial profile","removed","reduced","reduced-without-pm25-profile","NO2","fortaleza-terminal-messejana","bus_terminal",3,0.0818632975551061
+"reduced model","PM2.5 spatial profile","removed","reduced","reduced-without-pm25-profile","NO2","fortaleza-terminal-papicu","bus_terminal",3,-0.00774778620386292
+"reduced model","PM2.5 spatial profile","removed","reduced","reduced-without-pm25-profile","NO2","fortaleza-terminal-parangaba","bus_terminal",3,-0.0182530596381498
+"reduced model","PM2.5 spatial profile","removed","reduced","reduced-without-pm25-profile","NO2","fortaleza-terminal-siqueira","bus_terminal",1,0.0200063477003027
+"reduced model","PM2.5 spatial profile","removed","reduced","reduced-without-pm25-profile","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.22908991579344
+"reduced model","PM2.5 spatial profile","removed","reduced","reduced-without-pm25-profile","PM25","fortaleza-dhpp-fatima","avenue",2,-0.0443089346164777
+"reduced model","PM2.5 spatial profile","removed","reduced","reduced-without-pm25-profile","PM25","fortaleza-sda-sao-gerardo","avenue",3,-0.190806250879357
+"reduced model","PM2.5 spatial profile","removed","reduced","reduced-without-pm25-profile","PM25","fortaleza-terminal-messejana","bus_terminal",3,-0.143784523403498
+"reduced model","PM2.5 spatial profile","removed","reduced","reduced-without-pm25-profile","PM25","fortaleza-terminal-papicu","bus_terminal",3,-0.0187611057242676
+"reduced model","PM2.5 spatial profile","removed","reduced","reduced-without-pm25-profile","PM25","fortaleza-terminal-parangaba","bus_terminal",3,-0.0163562623993867
+"reduced model","PM2.5 spatial profile","removed","reduced","reduced-without-pm25-profile","PM25","fortaleza-terminal-siqueira","bus_terminal",3,0.0235429828109579
+"reduced model","NO2 site covariate","removed","reduced","reduced-without-no2-cov","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.0283780186606744
+"reduced model","NO2 site covariate","removed","reduced","reduced-without-no2-cov","NO2","fortaleza-dhpp-fatima","avenue",2,0.086068573054843
+"reduced model","NO2 site covariate","removed","reduced","reduced-without-no2-cov","NO2","fortaleza-sda-sao-gerardo","avenue",3,-0.0391584823157158
+"reduced model","NO2 site covariate","removed","reduced","reduced-without-no2-cov","NO2","fortaleza-terminal-messejana","bus_terminal",3,-1.89040366197676
+"reduced model","NO2 site covariate","removed","reduced","reduced-without-no2-cov","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.438286514275715
+"reduced model","NO2 site covariate","removed","reduced","reduced-without-no2-cov","NO2","fortaleza-terminal-parangaba","bus_terminal",3,0.522234494107799
+"reduced model","NO2 site covariate","removed","reduced","reduced-without-no2-cov","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.376430765528609
+"reduced model","NO2 site covariate","removed","reduced","reduced-without-no2-cov","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.0486589612862438
+"reduced model","NO2 site covariate","removed","reduced","reduced-without-no2-cov","PM25","fortaleza-dhpp-fatima","avenue",2,0.017802288034153
+"reduced model","NO2 site covariate","removed","reduced","reduced-without-no2-cov","PM25","fortaleza-sda-sao-gerardo","avenue",3,0.00872362117387134
+"reduced model","NO2 site covariate","removed","reduced","reduced-without-no2-cov","PM25","fortaleza-terminal-messejana","bus_terminal",3,0.0114002987675988
+"reduced model","NO2 site covariate","removed","reduced","reduced-without-no2-cov","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.000343855184767872
+"reduced model","NO2 site covariate","removed","reduced","reduced-without-no2-cov","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.000174434794127968
+"reduced model","NO2 site covariate","removed","reduced","reduced-without-no2-cov","PM25","fortaleza-terminal-siqueira","bus_terminal",3,0.00679955474941829
+"reduced model","Two traffic classes","removed","reduced","reduced-one-class","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.670639154388007
+"reduced model","Two traffic classes","removed","reduced","reduced-one-class","NO2","fortaleza-dhpp-fatima","avenue",2,0.137330320484989
+"reduced model","Two traffic classes","removed","reduced","reduced-one-class","NO2","fortaleza-sda-sao-gerardo","avenue",3,-0.0805479223914845
+"reduced model","Two traffic classes","removed","reduced","reduced-one-class","NO2","fortaleza-terminal-messejana","bus_terminal",3,-1.68072334455101
+"reduced model","Two traffic classes","removed","reduced","reduced-one-class","NO2","fortaleza-terminal-papicu","bus_terminal",3,-0.00685244560217387
+"reduced model","Two traffic classes","removed","reduced","reduced-one-class","NO2","fortaleza-terminal-parangaba","bus_terminal",3,0.901799134269717
+"reduced model","Two traffic classes","removed","reduced","reduced-one-class","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.668502892869751
+"reduced model","Two traffic classes","removed","reduced","reduced-one-class","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.0423711669332421
+"reduced model","Two traffic classes","removed","reduced","reduced-one-class","PM25","fortaleza-dhpp-fatima","avenue",2,0.021417154646289
+"reduced model","Two traffic classes","removed","reduced","reduced-one-class","PM25","fortaleza-sda-sao-gerardo","avenue",3,0.00999866978855968
+"reduced model","Two traffic classes","removed","reduced","reduced-one-class","PM25","fortaleza-terminal-messejana","bus_terminal",3,0.0156684243059235
+"reduced model","Two traffic classes","removed","reduced","reduced-one-class","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.00699767183253763
+"reduced model","Two traffic classes","removed","reduced","reduced-one-class","PM25","fortaleza-terminal-parangaba","bus_terminal",3,-0.00324443785676668
+"reduced model","Two traffic classes","removed","reduced","reduced-one-class","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.00221763275839778
+"reduced model","SatPM2.5 gain fixed at one","switched","reduced","reduced-free-gain","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,-0.0138644903971006
+"reduced model","SatPM2.5 gain fixed at one","switched","reduced","reduced-free-gain","NO2","fortaleza-dhpp-fatima","avenue",2,-0.00120907598608921
+"reduced model","SatPM2.5 gain fixed at one","switched","reduced","reduced-free-gain","NO2","fortaleza-sda-sao-gerardo","avenue",3,-0.00040204121509028
+"reduced model","SatPM2.5 gain fixed at one","switched","reduced","reduced-free-gain","NO2","fortaleza-terminal-messejana","bus_terminal",3,0.148159934340796
+"reduced model","SatPM2.5 gain fixed at one","switched","reduced","reduced-free-gain","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.00329568892055976
+"reduced model","SatPM2.5 gain fixed at one","switched","reduced","reduced-free-gain","NO2","fortaleza-terminal-parangaba","bus_terminal",3,-0.0224072759155742
+"reduced model","SatPM2.5 gain fixed at one","switched","reduced","reduced-free-gain","NO2","fortaleza-terminal-siqueira","bus_terminal",1,0.0371709696877991
+"reduced model","SatPM2.5 gain fixed at one","switched","reduced","reduced-free-gain","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.174670105071092
+"reduced model","SatPM2.5 gain fixed at one","switched","reduced","reduced-free-gain","PM25","fortaleza-dhpp-fatima","avenue",2,-0.0688631039189891
+"reduced model","SatPM2.5 gain fixed at one","switched","reduced","reduced-free-gain","PM25","fortaleza-sda-sao-gerardo","avenue",3,-0.0548661355294894
+"reduced model","SatPM2.5 gain fixed at one","switched","reduced","reduced-free-gain","PM25","fortaleza-terminal-messejana","bus_terminal",3,-0.221959406531747
+"reduced model","SatPM2.5 gain fixed at one","switched","reduced","reduced-free-gain","PM25","fortaleza-terminal-papicu","bus_terminal",3,-0.110876059253822
+"reduced model","SatPM2.5 gain fixed at one","switched","reduced","reduced-free-gain","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.0286862724383723
+"reduced model","SatPM2.5 gain fixed at one","switched","reduced","reduced-free-gain","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.0962964392871472
+"final model without TROPOMI","Low-cost network","removed","final-no-tropomi","final-no-tropomi-without-low-cost","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,-0.0122140270680581
+"final model without TROPOMI","Low-cost network","removed","final-no-tropomi","final-no-tropomi-without-low-cost","NO2","fortaleza-dhpp-fatima","avenue",2,0.00874889367287657
+"final model without TROPOMI","Low-cost network","removed","final-no-tropomi","final-no-tropomi-without-low-cost","NO2","fortaleza-sda-sao-gerardo","avenue",3,-0.00475893273631841
+"final model without TROPOMI","Low-cost network","removed","final-no-tropomi","final-no-tropomi-without-low-cost","NO2","fortaleza-terminal-messejana","bus_terminal",3,-0.030534632354552
+"final model without TROPOMI","Low-cost network","removed","final-no-tropomi","final-no-tropomi-without-low-cost","NO2","fortaleza-terminal-papicu","bus_terminal",3,-0.000499393078936317
+"final model without TROPOMI","Low-cost network","removed","final-no-tropomi","final-no-tropomi-without-low-cost","NO2","fortaleza-terminal-parangaba","bus_terminal",3,0.0465511130380117
+"final model without TROPOMI","Low-cost network","removed","final-no-tropomi","final-no-tropomi-without-low-cost","NO2","fortaleza-terminal-siqueira","bus_terminal",1,0.0148383360634168
+"final model without TROPOMI","Low-cost network","removed","final-no-tropomi","final-no-tropomi-without-low-cost","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.350116021542271
+"final model without TROPOMI","Low-cost network","removed","final-no-tropomi","final-no-tropomi-without-low-cost","PM25","fortaleza-dhpp-fatima","avenue",2,-0.0112303111168462
+"final model without TROPOMI","Low-cost network","removed","final-no-tropomi","final-no-tropomi-without-low-cost","PM25","fortaleza-sda-sao-gerardo","avenue",3,0.0886079572118955
+"final model without TROPOMI","Low-cost network","removed","final-no-tropomi","final-no-tropomi-without-low-cost","PM25","fortaleza-terminal-messejana","bus_terminal",3,0.226167785497173
+"final model without TROPOMI","Low-cost network","removed","final-no-tropomi","final-no-tropomi-without-low-cost","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.0509459785251771
+"final model without TROPOMI","Low-cost network","removed","final-no-tropomi","final-no-tropomi-without-low-cost","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.0449081733338199
+"final model without TROPOMI","Low-cost network","removed","final-no-tropomi","final-no-tropomi-without-low-cost","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.294639693541742
+"final model","TROPOMI, spatial loading","removed","final","final-no-tropomi","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,-0.142108658257642
+"final model","TROPOMI, spatial loading","removed","final","final-no-tropomi","NO2","fortaleza-dhpp-fatima","avenue",2,-0.148887325612447
+"final model","TROPOMI, spatial loading","removed","final","final-no-tropomi","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.175487247005551
+"final model","TROPOMI, spatial loading","removed","final","final-no-tropomi","NO2","fortaleza-terminal-messejana","bus_terminal",3,0.429027755367353
+"final model","TROPOMI, spatial loading","removed","final","final-no-tropomi","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.550977044771811
+"final model","TROPOMI, spatial loading","removed","final","final-no-tropomi","NO2","fortaleza-terminal-parangaba","bus_terminal",3,0.687151341599115
+"final model","TROPOMI, spatial loading","removed","final","final-no-tropomi","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.586378359691947
+"final model","TROPOMI, spatial loading","removed","final","final-no-tropomi","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.00419773617743222
+"final model","TROPOMI, spatial loading","removed","final","final-no-tropomi","PM25","fortaleza-dhpp-fatima","avenue",2,-0.00481940118391783
+"final model","TROPOMI, spatial loading","removed","final","final-no-tropomi","PM25","fortaleza-sda-sao-gerardo","avenue",3,0.00473740163831834
+"final model","TROPOMI, spatial loading","removed","final","final-no-tropomi","PM25","fortaleza-terminal-messejana","bus_terminal",3,0.0158642508645075
+"final model","TROPOMI, spatial loading","removed","final","final-no-tropomi","PM25","fortaleza-terminal-papicu","bus_terminal",3,-0.000791976497129809
+"final model","TROPOMI, spatial loading","removed","final","final-no-tropomi","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.0124864990329343
+"final model","TROPOMI, spatial loading","removed","final","final-no-tropomi","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.00219848736493851
+"final model","Two traffic classes","removed","final","final-one-class","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.868386936399844
+"final model","Two traffic classes","removed","final","final-one-class","NO2","fortaleza-dhpp-fatima","avenue",2,-0.304651108279669
+"final model","Two traffic classes","removed","final","final-one-class","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.377755216548199
+"final model","Two traffic classes","removed","final","final-one-class","NO2","fortaleza-terminal-messejana","bus_terminal",3,-0.102577819722791
+"final model","Two traffic classes","removed","final","final-one-class","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.0414118790012029
+"final model","Two traffic classes","removed","final","final-one-class","NO2","fortaleza-terminal-parangaba","bus_terminal",3,1.37389034950555
+"final model","Two traffic classes","removed","final","final-one-class","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.858225697349078
+"final model","Two traffic classes","removed","final","final-one-class","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.00577584804187173
+"final model","Two traffic classes","removed","final","final-one-class","PM25","fortaleza-dhpp-fatima","avenue",2,-0.000307759350949899
+"final model","Two traffic classes","removed","final","final-one-class","PM25","fortaleza-sda-sao-gerardo","avenue",3,0.00704941748779886
+"final model","Two traffic classes","removed","final","final-one-class","PM25","fortaleza-terminal-messejana","bus_terminal",3,0.0179566471403161
+"final model","Two traffic classes","removed","final","final-one-class","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.00177398718700728
+"final model","Two traffic classes","removed","final","final-one-class","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.0115206782975697
+"final model","Two traffic classes","removed","final","final-one-class","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.00184020829340662
+"final model","Four profile knots","switched","final","final-eight-knots","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,0.214081594902095
+"final model","Four profile knots","switched","final","final-eight-knots","NO2","fortaleza-dhpp-fatima","avenue",2,0.191453611208661
+"final model","Four profile knots","switched","final","final-eight-knots","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.0388052332101914
+"final model","Four profile knots","switched","final","final-eight-knots","NO2","fortaleza-terminal-messejana","bus_terminal",3,1.47447831515405
+"final model","Four profile knots","switched","final","final-eight-knots","NO2","fortaleza-terminal-papicu","bus_terminal",3,0.200044118152242
+"final model","Four profile knots","switched","final","final-eight-knots","NO2","fortaleza-terminal-parangaba","bus_terminal",3,1.0881635642541
+"final model","Four profile knots","switched","final","final-eight-knots","NO2","fortaleza-terminal-siqueira","bus_terminal",1,1.74752757609812
+"final model","Four profile knots","switched","final","final-eight-knots","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.00995061220485446
+"final model","Four profile knots","switched","final","final-eight-knots","PM25","fortaleza-dhpp-fatima","avenue",2,-0.0139869285601883
+"final model","Four profile knots","switched","final","final-eight-knots","PM25","fortaleza-sda-sao-gerardo","avenue",3,0.00148628507359072
+"final model","Four profile knots","switched","final","final-eight-knots","PM25","fortaleza-terminal-messejana","bus_terminal",3,0.00402720580233114
+"final model","Four profile knots","switched","final","final-eight-knots","PM25","fortaleza-terminal-papicu","bus_terminal",3,0.00305876845826771
+"final model","Four profile knots","switched","final","final-eight-knots","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.00722281413146146
+"final model","Four profile knots","switched","final","final-eight-knots","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.00507432818942166
+"final model","Quartic-tail scale priors","switched","final","final-half-normal","NO2","fortaleza-bombeiros-moura-brasil","avenue",2,-0.0267387086762571
+"final model","Quartic-tail scale priors","switched","final","final-half-normal","NO2","fortaleza-dhpp-fatima","avenue",2,-0.0511731371440221
+"final model","Quartic-tail scale priors","switched","final","final-half-normal","NO2","fortaleza-sda-sao-gerardo","avenue",3,0.0288847567696458
+"final model","Quartic-tail scale priors","switched","final","final-half-normal","NO2","fortaleza-terminal-messejana","bus_terminal",3,0.13410419874825
+"final model","Quartic-tail scale priors","switched","final","final-half-normal","NO2","fortaleza-terminal-papicu","bus_terminal",3,-0.0126485718641624
+"final model","Quartic-tail scale priors","switched","final","final-half-normal","NO2","fortaleza-terminal-parangaba","bus_terminal",3,0.16554950780642
+"final model","Quartic-tail scale priors","switched","final","final-half-normal","NO2","fortaleza-terminal-siqueira","bus_terminal",1,-0.188105666418143
+"final model","Quartic-tail scale priors","switched","final","final-half-normal","PM25","fortaleza-bombeiros-moura-brasil","avenue",2,-0.012443857179132
+"final model","Quartic-tail scale priors","switched","final","final-half-normal","PM25","fortaleza-dhpp-fatima","avenue",2,-0.00718592023266595
+"final model","Quartic-tail scale priors","switched","final","final-half-normal","PM25","fortaleza-sda-sao-gerardo","avenue",3,0.0118174482113379
+"final model","Quartic-tail scale priors","switched","final","final-half-normal","PM25","fortaleza-terminal-messejana","bus_terminal",3,0.0229013816502326
+"final model","Quartic-tail scale priors","switched","final","final-half-normal","PM25","fortaleza-terminal-papicu","bus_terminal",3,-0.00437153427267313
+"final model","Quartic-tail scale priors","switched","final","final-half-normal","PM25","fortaleza-terminal-parangaba","bus_terminal",3,0.00154250396100836
+"final model","Quartic-tail scale priors","switched","final","final-half-normal","PM25","fortaleza-terminal-siqueira","bus_terminal",3,-0.00673916233070833

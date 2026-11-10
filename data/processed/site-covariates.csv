@@ -1,0 +1,9 @@
+"location_id","n_bus_stops_250m","n_bus_stops_500m","len_mtps_100m","len_mtps_500m","len_vehicular_250m","dist_mtp_road_m","pop_1km","acag_log_ratio_municipal"
+"fortaleza-bombeiros-moura-brasil",0,1,348.2718,2069.926,3220.666,40.64047,12745.07,0.008957279
+"fortaleza-dhpp-fatima",4,16,551.48,8301.599,6138.632,43.07411,33564.2,0.05029603
+"fortaleza-sda-sao-gerardo",3,4,392.9072,1998.263,5868.609,0.05957087,39767.2,0.04630659
+"fortaleza-seuma-hq-cajazeiras",1,3,0,2648.594,5352.413,120.9494,18317.93,0.05275997
+"fortaleza-terminal-messejana",0,4,279.3188,4149.802,6282.781,65.2416,12143.71,-0.02595444
+"fortaleza-terminal-papicu",1,3,84.34793,8409.047,7453.45,125.3773,45365.38,0.06492518
+"fortaleza-terminal-parangaba",1,4,365.8514,6751.35,6629.364,51.60909,29642.82,0.0603088
+"fortaleza-terminal-siqueira",2,6,292.7699,4743.042,5445.335,59.62097,50422.11,0.02359659

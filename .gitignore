@@ -1,0 +1,10 @@
+/work
+/_targets/
+/data/moqa/*
+!/data/moqa/README.md
+/renv/library/
+/renv/local/
+/renv/staging/
+.Rhistory
+.RData
+.Rproj.user/

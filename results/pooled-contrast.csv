@@ -1,0 +1,2 @@
+"model_with","model_without","n_targets","n_blocks","gain","boot95_lo","boot95_hi","p_with_better","bootstrap_seed"
+"final","final-no-tropomi",133,23,0.0366755584794551,-0.00198406046517268,0.102194075748273,0.9665,20270110

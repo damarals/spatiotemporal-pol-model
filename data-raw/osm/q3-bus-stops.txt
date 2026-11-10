@@ -1,0 +1,3 @@
+[out:xml][timeout:170];
+node["highway"="bus_stop"](-3.90942,-38.65596,-3.67492,-38.38480);
+out body;

@@ -1,0 +1,41 @@
+[out:xml][timeout:170];
+/* The extract was downloaded with this query over all 22 monitoring sites; the full query,
+   with the low-cost sites, is with the low-cost network files (data/moqa/osm-q2-site-buffers.txt).
+   The blocks below are those of the 8 reference locations. */
+(
+  way["highway"](around:650,-3.717750,-38.535080);
+  node["highway"="bus_stop"](around:650,-3.717750,-38.535080);
+  node["public_transport"="platform"](around:650,-3.717750,-38.535080);
+  nwr["amenity"="bus_station"](around:1500,-3.717750,-38.535080);
+  way["highway"](around:650,-3.752590,-38.523890);
+  node["highway"="bus_stop"](around:650,-3.752590,-38.523890);
+  node["public_transport"="platform"](around:650,-3.752590,-38.523890);
+  nwr["amenity"="bus_station"](around:1500,-3.752590,-38.523890);
+  way["highway"](around:650,-3.733570,-38.554950);
+  node["highway"="bus_stop"](around:650,-3.733570,-38.554950);
+  node["public_transport"="platform"](around:650,-3.733570,-38.554950);
+  nwr["amenity"="bus_station"](around:1500,-3.733570,-38.554950);
+  way["highway"](around:650,-3.809630,-38.507690);
+  node["highway"="bus_stop"](around:650,-3.809630,-38.507690);
+  node["public_transport"="platform"](around:650,-3.809630,-38.507690);
+  nwr["amenity"="bus_station"](around:1500,-3.809630,-38.507690);
+  way["highway"](around:650,-3.831280,-38.501890);
+  node["highway"="bus_stop"](around:650,-3.831280,-38.501890);
+  node["public_transport"="platform"](around:650,-3.831280,-38.501890);
+  nwr["amenity"="bus_station"](around:1500,-3.831280,-38.501890);
+  way["highway"](around:650,-3.738320,-38.485170);
+  node["highway"="bus_stop"](around:650,-3.738320,-38.485170);
+  node["public_transport"="platform"](around:650,-3.738320,-38.485170);
+  nwr["amenity"="bus_station"](around:1500,-3.738320,-38.485170);
+  way["highway"](around:650,-3.776320,-38.563330);
+  node["highway"="bus_stop"](around:650,-3.776320,-38.563330);
+  node["public_transport"="platform"](around:650,-3.776320,-38.563330);
+  nwr["amenity"="bus_station"](around:1500,-3.776320,-38.563330);
+  way["highway"](around:650,-3.789850,-38.586750);
+  node["highway"="bus_stop"](around:650,-3.789850,-38.586750);
+  node["public_transport"="platform"](around:650,-3.789850,-38.586750);
+  nwr["amenity"="bus_station"](around:1500,-3.789850,-38.586750);
+);
+(._;>;);
+out body;
+

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "spatiotemporal-pol-model"
+abstract: "Code of the spatiotemporal fusion of NO2 and PM2.5 data sources for Fortaleza, Brazil: data processing, model fits, validation, backward elimination, simulation-based calibration, predictive checks and concentration maps."
+authors:
+  - family-names: "de Amaral da Silva"
+    given-names: "Daniel"
+    orcid: "https://orcid.org/0000-0001-8758-0973"
+license: MIT
+repository-code: "https://github.com/damarals/spatiotemporal-pol-model"
+keywords:
+  - air quality
+  - data fusion
+  - NO2
+  - PM2.5
+  - Bayesian model
+  - Stan
