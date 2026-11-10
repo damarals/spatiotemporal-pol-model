@@ -1,0 +1,21 @@
+Type: project
+Title: Spatiotemporal fusion of NO2 and PM2.5 data sources for Fortaleza
+Imports:
+    data.table,
+    digest,
+    exactextractr,
+    geobr,
+    ggplot2,
+    httr2,
+    jsonlite,
+    mgcv,
+    ncdf4,
+    patchwork,
+    readxl,
+    scoringRules,
+    sf,
+    targets,
+    terra,
+    testthat,
+    units,
+    withr
