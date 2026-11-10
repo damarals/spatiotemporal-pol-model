@@ -73,7 +73,7 @@ plot_maps <- function(cells, sites, boundary, path) {
   rows <- lapply(c("NO2", "PM25"), function(p) {
     pair <- patchwork::wrap_plots(.map_panel(squares, outline, points, p, "mean"),
       .map_panel(squares, outline, points, p, "relative_width"), nrow = 1L)
-    patchwork::wrap_elements(plot = pair) + ggplot2::labs(title = .pollutant_label[[p]]) +
+    patchwork::wrap_elements(plot = pair) + ggplot2::labs(title = .pair_title(p)) +
       ggplot2::theme(plot.title = ggplot2::element_text(family = paper_font, size = 11.5, hjust = 0,
         margin = ggplot2::margin(b = 0)))
   })
@@ -124,6 +124,19 @@ plot_maps <- function(cells, sites, boundary, path) {
 
 .pollutant_label <- list(NO2 = quote("Background NO"[2]), PM25 = quote("PM"[2.5]))
 
+# Titles of one kind end in an invisible strut as tall and as deep as all of
+# them, so they share one height and baseline: the pair titles and the four
+# colour bars then line up across the panels.
+.pair_title <- function(pollutant)
+  bquote(.(.pollutant_label[[pollutant]]) * vphantom(.(.pollutant_label$NO2) * .(.pollutant_label$PM25)))
+
+.bar_title <- function(pollutant, quantity) {
+  unit <- quote("(µg" ~ m^-3 * ")")
+  title <- if (quantity == "mean") bquote(.(.pollutant_label[[pollutant]]) ~ .(unit)) else
+    "95% interval width / mean"
+  bquote(.(title) * vphantom(.(.pollutant_label$NO2) * .(.pollutant_label$PM25) * .(unit)))
+}
+
 # The 0.01 degree squares around the cell centres (planar in longitude and
 # latitude), clipped to the municipality.
 .cell_squares <- function(values, outline) {
@@ -144,15 +157,13 @@ plot_maps <- function(cells, sites, boundary, path) {
 .map_panel <- function(squares, outline, points, pollutant, quantity) {
   d <- squares[squares$pollutant == pollutant & squares$quantity == quantity, ]
   limits <- range(d$value)
-  bar <- if (quantity == "mean") bquote(.(.pollutant_label[[pollutant]]) ~ "(µg" ~ m^-3 * ")") else
-    "95% interval width / mean"
   ggplot2::ggplot(d) +
     ggplot2::geom_sf(ggplot2::aes(fill = value, colour = value), linewidth = 0.05) +
     ggplot2::geom_sf(data = outline, fill = NA, colour = paper_colours$text, linewidth = 0.3,
       inherit.aes = FALSE) +
     ggplot2::geom_sf(data = points, shape = 21, size = 1.15, stroke = 0.35, fill = "white",
       colour = paper_colours$text, inherit.aes = FALSE) +
-    ggplot2::scale_fill_viridis_c(option = "plasma", limits = limits, name = bar,
+    ggplot2::scale_fill_viridis_c(option = "plasma", limits = limits, name = .bar_title(pollutant, quantity),
       guide = ggplot2::guide_colourbar(theme = ggplot2::theme(legend.key.width = grid::unit(28, "mm"),
         legend.key.height = grid::unit(2.2, "mm")))) +
     ggplot2::scale_colour_viridis_c(option = "plasma", limits = limits, guide = "none") +
