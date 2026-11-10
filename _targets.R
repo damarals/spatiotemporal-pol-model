@@ -286,6 +286,8 @@ list(
     format = "file"),
   tar_target(elimination_csv, write_result(elimination_table(scores), "results/elimination.csv"),
     format = "file"),
+  tar_target(full_vs_final_csv, write_result(full_vs_final_table(scores),
+    "results/full-vs-final.csv"), format = "file"),
   tar_target(benchmarks_csv, write_result(compare_benchmarks(benchmarks, scores,
     models = c("final", "final-no-tropomi", "full-no-tropomi", "reduced", "full"), variants = TRUE),
     "results/benchmarks.csv"), format = "file"),

@@ -84,6 +84,29 @@ testthat::test_that("the location gains table gives the gain and count of each t
   testthat::expect_identical(unique(g$pollutant), "NO2")
 })
 
+testthat::test_that("the full model against the final model is the elimination comparison numbered after its steps", {
+  f <- contrast_fixture()
+  full <- transform(f$with, model = "full")
+  final <- transform(f$without, model = "final")
+  x <- full_vs_final_table(rbind(full, final))
+  testthat::expect_identical(c(x$model_with, x$model_without), c("full", "final"))
+  testthat::expect_identical(x$reference, "full model")
+  testthat::expect_identical(x$bootstrap_seed, 20261109L + 100L * 27L + 1L)
+  y <- elimination_table(rbind(full, final), full_vs_final_step)
+  testthat::expect_identical(x[setdiff(names(x), "bootstrap_seed")], y[setdiff(names(y), "bootstrap_seed")])
+  p <- paired_contrast(full, final, "new-traffic", "NO2", seed = x$bootstrap_seed)
+  testthat::expect_equal(c(x$gain, x$boot95_lo, x$boot95_hi), round(c(p$gain, p$boot95_lo, p$boot95_hi), 3))
+})
+
+testthat::test_that("results/full-vs-final.csv compares the two models on every evaluation group", {
+  elim <- utils::read.csv(file.path(repo_root, "results", "elimination.csv"), stringsAsFactors = FALSE)
+  x <- utils::read.csv(file.path(repo_root, "results", "full-vs-final.csv"), stringsAsFactors = FALSE)
+  testthat::expect_identical(names(x), names(elim))
+  testthat::expect_identical(paste(x$group, x$pollutant),
+    paste(evaluation_groups$group, evaluation_groups$pollutant))
+  testthat::expect_true(all(x$model_with == "full" & x$model_without == "final"))
+})
+
 testthat::test_that("elimination_steps and paper table selectors match the repository models", {
   testthat::expect_identical(nrow(elimination_steps), 26L)
   testthat::expect_true(all(elimination_steps$model_with %in% models$model))

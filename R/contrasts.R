@@ -1,6 +1,7 @@
 # Paired comparisons of model variants: the 26 steps (186 comparisons) of the
-# backward elimination and sensitivity analyses, per-location breakdowns, and
-# the location-by-year block bootstrap over all 133 evaluation targets.
+# backward elimination and sensitivity analyses, the full model against the
+# final model, per-location breakdowns, and the location-by-year block
+# bootstrap over all 133 evaluation targets.
 
 # The 26 steps of the backward elimination and sensitivity analyses, in order.
 elimination_steps <- utils::read.csv(stringsAsFactors = FALSE, text = "
@@ -109,8 +110,10 @@ location_gains <- function(scores_with, scores_without, group, pollutant) {
 }
 
 #' All 186 paired comparisons of the backward elimination and sensitivity
-#' analyses across the five validation unit groups.
-elimination_table <- function(scores, steps = elimination_steps, round_digits = TRUE) {
+#' analyses across the five validation unit groups. Step i uses the bootstrap
+#' seeds 20261109 + 100 (first_step + i - 1) + j, j counting its groups.
+elimination_table <- function(scores, steps = elimination_steps, round_digits = TRUE,
+    first_step = 1L) {
   rows <- list()
   for (i in seq_len(nrow(steps))) {
     sa <- scores[scores$model == steps$model_with[i], , drop = FALSE]
@@ -126,7 +129,7 @@ elimination_table <- function(scores, steps = elimination_steps, round_digits = 
       key <- function(x) paste(x$unit, x$observation_id)
       if (!length(intersect(key(A), key(B)))) next
       j <- j + 1L
-      seed <- 20261109L + 100L * i + j
+      seed <- 20261109L + 100L * (first_step + i - 1L) + j
       row <- paired_contrast(sa, sb, grp, pol, seed)
       rows[[length(rows) + 1L]] <- data.frame(
         reference = steps$reference[i], component = steps$component[i], change = steps$change[i],
@@ -147,6 +150,18 @@ elimination_table <- function(scores, steps = elimination_steps, round_digits = 
     "boot95_lo", "boot95_hi")
   out[num3] <- lapply(out[num3], round, 3)
   out
+}
+
+# The full model against the final model: the six components and the fixed
+# SatPM2.5 gain that the elimination leaves out.
+full_vs_final_step <- data.frame(reference = "full model",
+  component = "Six components and the fixed SatPM2.5 gain", change = "removed",
+  model_with = "full", model_without = "final", stringsAsFactors = FALSE)
+
+#' The full model against the final model on every unit group where both are
+#' fitted, as one more row of the elimination steps: step 27 for its seeds.
+full_vs_final_table <- function(scores) {
+  elimination_table(scores, full_vs_final_step, first_step = nrow(elimination_steps) + 1L)
 }
 
 #' Pooled comparison over all common targets except the prior-dominated NO2 at
