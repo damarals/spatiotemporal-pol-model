@@ -1,4 +1,4 @@
-# Paired comparisons of model variants: the 26 steps (183 comparisons) of the
+# Paired comparisons of model variants: the 26 steps (186 comparisons) of the
 # backward elimination and sensitivity analyses, per-location breakdowns, and
 # the location-by-year block bootstrap over all 133 evaluation targets.
 
@@ -108,7 +108,7 @@ location_gains <- function(scores_with, scores_without, group, pollutant) {
   tapply(W$crps - A$crps, A$physical_location_id, mean)
 }
 
-#' All 183 paired comparisons of the backward elimination and sensitivity
+#' All 186 paired comparisons of the backward elimination and sensitivity
 #' analyses across the five validation unit groups.
 elimination_table <- function(scores, steps = elimination_steps, round_digits = TRUE) {
   rows <- list()

@@ -90,10 +90,10 @@ testthat::test_that("elimination_steps and paper table selectors match the repos
   testthat::expect_true(all(elimination_steps$model_without %in% models$model))
   if (file.exists(file.path(repo_root, "results", "elimination.csv"))) {
     elim <- utils::read.csv(file.path(repo_root, "results", "elimination.csv"), stringsAsFactors = FALSE)
-    testthat::expect_identical(nrow(elim), 183L)
+    testthat::expect_identical(nrow(elim), 186L)
     t5 <- paper_contrasts_table(elim, "structure")
     t6 <- paper_contrasts_table(elim, "sources")
     testthat::expect_identical(nrow(t5), 14L)
-    testthat::expect_identical(nrow(t6), 27L)
+    testthat::expect_identical(nrow(t6), 30L)
   }
 })

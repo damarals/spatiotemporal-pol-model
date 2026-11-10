@@ -18,6 +18,10 @@ validation_fits <- utils::read.table(header = TRUE, stringsAsFactors = FALSE, te
   full                                 withheld-background
   full                                 year-2023
   full                                 year-2024
+  full                                 year-2025
+  full                                 new-devices-1
+  full                                 new-devices-2
+  full                                 new-devices-3
   full-unsigned                        new-traffic-1
   full-unsigned                        new-traffic-2
   full-unsigned                        new-traffic-3

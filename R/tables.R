@@ -81,6 +81,9 @@ Removed or changed,\"TROPOMI, both loadings\",full model without TROPOMI,new-tra
 Removed or changed,\"TROPOMI, both loadings\",full model without TROPOMI,new-traffic,PM25
 Removed or changed,\"TROPOMI, both loadings\",full model without TROPOMI,omitted-months,NO2
 Removed or changed,\"TROPOMI, both loadings\",full model without TROPOMI,omitted-months,PM25
+Removed or changed,\"TROPOMI, both loadings\",full model without TROPOMI,whole-years,NO2
+Removed or changed,\"TROPOMI, both loadings\",full model without TROPOMI,whole-years,PM25
+Removed or changed,\"TROPOMI, both loadings\",full model without TROPOMI,new-devices,PM25
 Removed or changed,NO2 site covariate,reduced model,new-traffic,NO2
 Kept,ERA5 drivers,full model without TROPOMI,omitted-months,NO2
 Kept,ERA5 drivers,full model without TROPOMI,whole-years,NO2
@@ -104,7 +107,7 @@ Kept,PM2.5 site covariate,full model without TROPOMI,new-devices,PM25
 ")
 
 #' Select the rows of Table 5 (structure and coupling) or Table 6 (sources)
-#' from the 183-row elimination table.
+#' from the 186-row elimination table.
 paper_contrasts_table <- function(elimination, which = c("structure", "sources")) {
   which <- match.arg(which)
   spec <- if (which == "structure") table5_rows else table6_rows

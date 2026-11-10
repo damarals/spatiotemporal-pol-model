@@ -107,6 +107,9 @@
 "full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","Withheld background location","withheld-background","PM25",24,1,1.14,1.182,0.041,0.029,0.018,"targets",NA,NA,NA,NA,NA,NA,NA
 "full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","Omitted months","omitted-months","NO2",6,1,0.7,0.623,-0.077,0.017,0.186,"targets",NA,NA,NA,NA,NA,NA,NA
 "full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","Omitted months","omitted-months","PM25",2,1,0.948,0.831,-0.117,0.03,0.012,"targets",NA,NA,NA,NA,NA,NA,NA
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","Whole years","whole-years","NO2",21,1,0.643,0.664,0.022,0.015,0.015,"targets",NA,NA,NA,NA,NA,NA,NA
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","Whole years","whole-years","PM25",23,1,1.31,1.322,0.012,0.035,0.011,"targets",NA,NA,NA,NA,NA,NA,NA
+"full model without TROPOMI","TROPOMI, both loadings","removed","full","full-no-tropomi","New devices","new-devices","PM25",21,9,1.211,1.216,0.004,0.025,0.012,"locations",6,-0.004,0.011,FALSE,-0.016,0.028,20262618
 "reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","New traffic locations","new-traffic","NO2",17,7,1.971,1.97,-0.001,0.048,0.006,"locations",3,-0.003,0.004,FALSE,-0.013,0.01,20262710
 "reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","New traffic locations","new-traffic","PM25",19,7,1.278,1.051,-0.227,0.029,0.125,"locations",5,-0.28,-0.124,TRUE,-0.472,-0.026,20262711
 "reduced model","Low-cost network","removed","reduced","reduced-without-low-cost","Omitted months","omitted-months","NO2",6,1,0.611,0.598,-0.013,0.017,0.01,"targets",NA,NA,NA,NA,NA,NA,NA

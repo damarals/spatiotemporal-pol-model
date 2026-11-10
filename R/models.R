@@ -23,7 +23,7 @@
 #   units            unit groups fitted (see model_units())
 models <- utils::read.table(header = TRUE, stringsAsFactors = FALSE, text = "
 model                                     tropomi temporal_loading sign_constraint no2_profile pm25_profile profile_cor r amplitude classes deviation low_cost era5 satpm25 seasonal free_gain no2_cov pm25_cov knots width_m priors      units
-full                                      1       1                1               1           1            1           1 1         2       1         1        1    1       1        0         1       1        4     8000    quartic     omitted;traffic;background;year-2023;year-2024
+full                                      1       1                1               1           1            1           1 1         2       1         1        1    1       1        0         1       1        4     8000    quartic     omitted;traffic;background;years;devices
 full-unsigned                             1       1                0               1           1            1           1 1         2       1         1        1    1       1        0         1       1        4     8000    quartic     traffic
 full-no-tropomi                           0       0                0               1           1            1           1 1         2       1         1        1    1       1        0         1       1        4     8000    quartic     omitted;traffic;background;years;devices
 full-no-tropomi-without-r                 0       0                0               1           1            1           0 1         2       1         1        1    1       1        0         1       1        4     8000    quartic     omitted;traffic;years;devices
@@ -68,7 +68,7 @@ model_units <- function(model) {
   members <- list(omitted = "omitted-months",
     traffic = c("new-traffic-1", "new-traffic-2", "new-traffic-3"),
     background = "withheld-background", years = c("year-2023", "year-2024", "year-2025"),
-    "year-2023" = "year-2023", "year-2024" = "year-2024", "year-2025" = "year-2025",
+    "year-2025" = "year-2025",
     devices = c("new-devices-1", "new-devices-2", "new-devices-3"), all = "all-data")
   unknown <- setdiff(groups, names(members))
   if (length(unknown)) stop("Unknown unit groups: ", paste(unknown, collapse = ", "), call. = FALSE)
