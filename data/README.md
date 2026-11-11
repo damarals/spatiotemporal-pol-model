@@ -53,3 +53,44 @@ The decisions about the low-cost network are with its data in `moqa/`.
 Everything derived from the low-cost network: the monthly means, the calibration pairs, the 14
 low-cost sites and their covariates, the operating periods and the quality-control decisions.
 They are not in git; see `moqa/README.md`.
+
+## Sources and terms
+
+The MIT License of the repository covers the code only. The files in this folder, the ERA5 files
+in `data-raw/era5/` and the results derived from them in `results/` keep the terms of their
+sources:
+
+- **SEUMA** (Secretaria Municipal do Urbanismo e Meio Ambiente, Prefeitura de Fortaleza): hourly
+  NO2 and PM2.5 of the mobile reference station, from the public monthly workbooks
+  (`processed/seuma-*.csv`).
+- **MoQA / TRAMA**: low-cost network data of the Prefeitura de Fortaleza, managed by TRAMA,
+  Universidade Federal do Ceará; available on request, not redistributed here (`moqa/`).
+- **TROPOMI**: Sentinel-5P TROPOMI L2 NO2 (https://doi.org/10.5270/S5P-9bnp8q8), processed with
+  HARP (`processed/tropomi*`). Contains modified Copernicus Sentinel data (2020-2025).
+- **ERA5** (https://doi.org/10.24381/cds.adbb2d47): obtained through the
+  [Open-Meteo](https://open-meteo.com/) historical weather API and aggregated to monthly values
+  (`processed/era5-monthly.csv`, `data-raw/era5/`). Contains modified Copernicus Climate Change
+  Service information (2026). Open-Meteo data are under
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- **Copernicus notice**: neither the European Commission nor ECMWF is responsible for any use that
+  may be made of the Copernicus information or data it contains.
+- **SatPM2.5** (ACAG, Atmospheric Composition Analysis Group, Washington University in St. Louis):
+  monthly surface PM2.5 estimates, version V6.GL.03 (`processed/acag-*.csv`). Cite Shen, S., Li,
+  C., van Donkelaar, A., Jacobs, N., Wang, C., Martin, R. V. (2024). Enhancing global estimation
+  of fine particulate matter concentrations by including geophysical a priori information in deep
+  learning. ACS ES&T Air 1(5), 332-345. https://doi.org/10.1021/acsestair.3c00054.
+- **OpenStreetMap**: © OpenStreetMap contributors. The site and grid covariates in
+  `processed/site-covariates.csv` and `processed/grid-covariates.csv` are derived from
+  OpenStreetMap extracts and are available under the
+  [Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/1-0/), not under
+  the MIT License of the code.
+- **WorldPop** (www.worldpop.org): Brazil 2020 constrained population counts, UN adjusted, 100 m,
+  under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The covariate `pop_1km` is
+  derived from it (population summed within 1 km). Cite Bondarenko, M., Kerr, D., Sorichetta, A.,
+  Tatem, A. J. (2020). Census/projection-disaggregated gridded population datasets, adjusted to
+  match the corresponding UNPD 2020 estimates, for 183 countries in 2020 using Built-Settlement
+  Growth Model (BSGM) outputs. WorldPop, University of Southampton.
+  https://doi.org/10.5258/SOTON/WP00685.
+- **IBGE** (Instituto Brasileiro de Geografia e Estatística): municipal boundaries (2022) and
+  urbanized areas (2015), obtained through the `geobr` package (`processed/boundary.gpkg`,
+  `processed/basemap.gpkg`). Source: IBGE.

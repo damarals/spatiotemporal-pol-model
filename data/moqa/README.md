@@ -5,6 +5,13 @@ TRAMA, Universidade Federal do Ceará (UFC). They are not redistributed here; th
 TRAMA on request. Put the files below in this folder to run the analysis; the tests that need
 them skip when the folder holds only this file.
 
+Nothing derived from them is in this repository except the device identifiers and the model
+results (the figures show the devices' approximate positions, as in the paper). For the same
+reason `results/targets.csv` leaves out the scores of the low-cost targets and `results/ppc.csv`
+the observed features of the network. With these files in place, the tests of the Stan program
+also need `CMDSTAN`, and one test needs the reference workbooks
+(`Rscript data-raw/02-seuma.R --download`).
+
 ## Files
 
 `moqa-monthly.csv`: 21 field device-months.
